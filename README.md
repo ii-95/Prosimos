@@ -11,6 +11,17 @@ Besides, pools can share resources, i.e., a resource may play different roles in
 - PIP 21.2.3+ (upgrade with python -m pip install --upgrade pip)
 - For dependencies, please, check requirements.txt
 
+## Running Experiments BPM-2022
+
+      git clone https://github.com/ii-95/Prosimos bpm2022
+
+* Set up Python environment using the built-in venv module from requirements.txt. 
+* Unzip the file input_output_files.zip, to add the folder **input_output_files** containing all the input files used in 
+the experimentation (excluding the log insurance which is private) in the root folder.
+* Once all the dependencies all installed, run the following command from the root folder of repository: **pip install -e .**
+* Run the script **bpm22_experiments_script.py**, in the folder **testing_scripts**.
+Then check the information printed in the terminal.
+
 ## Getting Started
 
     git clone https://github.com/AutomatedProcessImprovement/Prosimos.git
@@ -182,16 +193,6 @@ The following snippet outlines an example of the general structure of the input 
                   ]
               }
           ]
-      }
-
-## Running Experiments BPM-2022
-
-      git clone https://github.com/AutomatedProcessImprovement/Prosimos.git
-
-* Set up Python environment using the built-in venv module from requirements.txt. 
-* Unzip the file input_output_files.zip, to add the folder **input_output_files** containing all the input files used in 
-the experimentation (excluding the log insurance which is private) in the root folder.
-* Once all the dependencies all installed, run the script **bpm22_experiments_script.py**, in the folder **testing_scripts**.
-Then check the information printed in the terminal. 
+      } 
 
 
