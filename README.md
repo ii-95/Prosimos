@@ -13,7 +13,7 @@ Besides, pools can share resources, i.e., a resource may play different roles in
 
 ## Running Experiments BPM-2022
 
-      git clone https://github.com/ii-95/Prosimos bpm2022
+      git clone https://github.com/ii-95/Prosimos
 
 * Set up Python environment using the built-in venv module from requirements.txt. 
 * Unzip the file input_output_files.zip, to add the folder **input_output_files** containing all the input files used in 
