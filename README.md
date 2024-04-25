@@ -18,7 +18,7 @@ Besides, pools can share resources, i.e., a resource may play different roles in
 * Set up Python environment using the built-in venv module from requirements.txt. 
 * Unzip the file input_output_files.zip, to add the folder **input_output_files** containing all the input files used in 
 the experimentation (excluding the log insurance which is private) in the root folder.
-* Once all the dependencies all installed, run the following command from the root folder of repository: **pip install -e .**
+* Once all the dependencies all installed, run the following command from the root folder of repository: '**pip install -e .**'
 * Run the script **bpm22_experiments_script.py**, in the folder **testing_scripts**.
 Then check the information printed in the terminal.
 
