@@ -15,7 +15,7 @@ from testing_scripts.david_metrics import read_and_preprocess_log
 
 
 def main():
-    for i in range(0, 9):
+    for i in range(0, 5):
         model_name = experiment_logs[i]
         # transform_xes_to_csv(process_files[model_name]['xes_log'], process_files[model_name]['real_csv_log'])
 
